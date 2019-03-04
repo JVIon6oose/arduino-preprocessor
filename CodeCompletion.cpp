@@ -158,7 +158,7 @@ void DoCodeCompletion(const string &filename, const string &code, int line, int 
     ci.setCodeCompletionConsumer(ccConsumer);
 
     FrontendOptions& fOpts = ci.getFrontendOpts();
-    fOpts.Inputs.push_back(FrontendInputFile(filename, InputKind::IK_CXX));
+    fOpts.Inputs.push_back(FrontendInputFile(filename, InputKind::CXX));
     fOpts.CodeCompletionAt.FileName = filename;
     fOpts.CodeCompletionAt.Line = line;
     fOpts.CodeCompletionAt.Column = col;
