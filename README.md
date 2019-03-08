@@ -1,4 +1,6 @@
-## This is a fork updated to be compatible with an ebuild source for an amd64 gentoo system.
+## JVIon6oose Fork
+
+This is a fork updated to be compatible for an ebuild source of an up to date amd64 gentoo build.
 
 # Arduino Sketch preprocessor
 
