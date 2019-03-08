@@ -57,9 +57,9 @@ static cl::opt<bool> outputOnlyNeededPrototypesOpt("output-only-needed-prototype
 static cl::opt<bool> outputDiagnosticsOpt("output-diagnostics");
 static cl::opt<string> outputCodeCompletionsOpt("output-code-completions");
 
-static void printVersion() {
-    outs() << "Arduino (https://www.arduino.cc/):\n";
-    outs() << "  arduino-preprocessor version " VERSION "\n";
+static void printVersion(raw_ostream &out) {
+    out << "Arduino (https://www.arduino.cc/):\n";
+    out << "  arduino-preprocessor version " VERSION "\n";
 }
 
 CommonOptionsParser doCommandLineParsing(int argc, const char **argv) {
