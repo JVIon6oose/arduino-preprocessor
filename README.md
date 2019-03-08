@@ -1,3 +1,5 @@
+## This is a fork updated to be compatible with an ebuild source for an amd64 gentoo system.
+
 # Arduino Sketch preprocessor
 
 [![Build Status](https://travis-ci.org/arduino/arduino-preprocessor.svg?branch=master)](https://travis-ci.org/arduino/arduino-preprocessor)
